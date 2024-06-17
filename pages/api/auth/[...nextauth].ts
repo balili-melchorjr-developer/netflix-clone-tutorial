@@ -1,8 +1,6 @@
-
 import NextAuth, { AuthOptions } from 'next-auth';
 import Credentials from "next-auth/providers/credentials";
 import prismadb from '@/lib/prismadb'
-
 import Github from "next-auth/providers/github";
 import Google from "next-auth/providers/google";
 
